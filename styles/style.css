@@ -71,12 +71,10 @@ p {
 
 /* offer css */
 #offer {
-    margin: 0 auto;
     text-align: center;
-}
-
-.new-year-wrapper .new-year-content {
-    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .new-year-wrapper .new-year-content h2 {
@@ -84,6 +82,7 @@ p {
     font-weight: 700;
     font-size: 88px;
     color: #FF0000;
+    margin-top: 105px;
 
 }
 .new-year-wrapper .new-year-content p {
@@ -91,6 +90,16 @@ p {
     font-weight: 500;
     font-size: 24px;
     color: #FF0000;
+    margin-top: 48px;
+    margin-bottom: 13px;
+
+}
+.new-year-wrapper .new-year-content h3 {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: 070211;
+    margin-bottom: 48px;
 
 }
 
