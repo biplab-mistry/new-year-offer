@@ -29,20 +29,9 @@ h6,
 p {
     line-height: 0.8;
 }
-
-/* font-family: "Merriweather", serif;
-   font-weight: 900; 
-   line-height:20px;
-   font-size:18px;
-   color:#000;
-
-   font-family: "Inter", serif;
-   font-weight: 900; 
-   line-height:20px;
-   font-size:18px;
-   color:#000;
-
-  */
+body{
+    overflow-x: hidden;
+}
 
 /* Banner css start Here */
 #Banner {
@@ -102,7 +91,40 @@ p {
     margin-bottom: 48px;
 
 }
-
 .new-year-wrapper img {
     width: 800px;
+}
+/* midnight party css */
+#mid-night-party{
+    background: linear-gradient(to right, rgba(7, 2, 17, 0.9), rgba(7, 2, 17, 0.1)), url('/images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 125px;
+    padding-left: 125px;
+    padding-bottom: 140px;
+
+}
+#mid-night-party h2{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
+
+}
+#mid-night-party p{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 13px;
+    padding-bottom: 38px;
+}
+#mid-night-party h4{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
 }
