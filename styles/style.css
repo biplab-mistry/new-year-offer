@@ -29,7 +29,8 @@ h6,
 p {
     line-height: 0.8;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -74,6 +75,7 @@ body{
     margin-top: 105px;
 
 }
+
 .new-year-wrapper .new-year-content p {
     font-family: "Inter", serif;
     font-weight: 500;
@@ -83,6 +85,7 @@ body{
     margin-bottom: 13px;
 
 }
+
 .new-year-wrapper .new-year-content h3 {
     font-family: "Inter", serif;
     font-weight: 700;
@@ -91,11 +94,13 @@ body{
     margin-bottom: 48px;
 
 }
+
 .new-year-wrapper img {
     width: 800px;
 }
+
 /* midnight party css */
-#mid-night-party{
+#mid-night-party {
     background: linear-gradient(to right, rgba(7, 2, 17, 0.9), rgba(7, 2, 17, 0.1)), url('/images/Vectorrr.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +110,8 @@ body{
     padding-bottom: 140px;
 
 }
-#mid-night-party h2{
+
+#mid-night-party h2 {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-size: 64px;
@@ -113,7 +119,8 @@ body{
     color: #FFFFFF;
 
 }
-#mid-night-party p{
+
+#mid-night-party p {
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 18px;
@@ -122,9 +129,50 @@ body{
     padding-top: 13px;
     padding-bottom: 38px;
 }
-#mid-night-party h4{
+
+#mid-night-party h4 {
     font-family: "Inter", serif;
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
 }
+
+/* join now css */
+
+#join-now {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#join-now h3 {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    color: #070211;
+
+}
+
+#join-now span {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    color: #FF0000;
+
+}
+
+#join-now h4 a{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FF0000;
+    color: #FFFF;
+    padding: 12px 25px;
+    border-radius: 16px;
+
+}
+#join-now h4{
+    margin-top: 55px;
+}
+/* best offer section */
