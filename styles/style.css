@@ -1,0 +1,99 @@
+/* common css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+}
+
+/* font-family: "Merriweather", serif;
+   font-weight: 900; 
+   line-height:20px;
+   font-size:18px;
+   color:#000;
+
+   font-family: "Inter", serif;
+   font-weight: 900; 
+   line-height:20px;
+   font-size:18px;
+   color:#000;
+
+  */
+
+/* Banner css start Here */
+#Banner {
+    background: url(../images/Banner\ Image.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 177px 344px;
+
+}
+
+.banner-content h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    line-height: 95px;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.banner-content p {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+/* offer css */
+#offer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.new-year-wrapper .new-year-content {
+    width: 800px;
+}
+
+.new-year-wrapper .new-year-content h2 {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 88px;
+    color: #FF0000;
+
+}
+.new-year-wrapper .new-year-content p {
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+
+}
+
+.new-year-wrapper img {
+    width: 800px;
+}
