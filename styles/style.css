@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
-    width: 1320px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -34,6 +33,10 @@ body {
     overflow-x: hidden;
 }
 
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
 /* Banner css start Here */
 #Banner {
     background: url(../images/Banner\ Image.png);
@@ -390,6 +393,7 @@ body {
 
 /* newsLatter section css */
 #newsLatter {
+    margin-bottom: 120px;
     padding: 80px 0px;
     border-radius: 16px;
     background-color: rgba(255, 0, 0, 0.1);
@@ -448,4 +452,58 @@ input[type="text"] {
     top: 0;
     width: 210px;
 
+}
+/* footer css */
+#footer{
+    background-color: #070211;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.bottom-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 48px;
+  
+}
+.bottom-top p{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFF;
+    line-height: 40px;
+}
+.right-footer{
+    width: 250px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.bottom-mid{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 24px;
+}
+.bottom-mid:last-child{
+    margin-right: 0;
+}
+.bottom-last p{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFF;
+}
+.bottom-last a{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFF;
+}
+.bottom-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
