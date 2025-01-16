@@ -1,0 +1,20 @@
+/* for extra small device */
+@media (max-width:576.98px){
+    /* banner part start */
+    #Banner {
+        padding: 80px 0;
+        background-size: contain;
+    }
+    .banner-content{
+        position: absolute;
+        top: 15px;
+        left: 50px;
+    }
+    .banner-content p {
+        font-size: 13px;
+      }
+    .banner-content h1 {
+        line-height: 65px;
+        font-size: 37px;
+      }
+}
