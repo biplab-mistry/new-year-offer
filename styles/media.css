@@ -17,4 +17,129 @@
         line-height: 65px;
         font-size: 37px;
       }
+      /* offer section */
+      .new-year-wrapper .new-year-content h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .new-year-wrapper .new-year-content p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .new-year-wrapper .new-year-content h3 {
+        font-size: 35px;
+    }
+    .new-year-wrapper img {
+        width: 100%;
+      }
+      /* mid-night party section */
+      #mid-night-party {
+        background-size: contain;
+        position: relative;
+        padding-top: 24px;
+    }
+    #mid-night-party h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #mid-night-party p {
+        font-size: 13px;
+        line-height: 18px;
+        padding-bottom: 12px;
+    }
+    .mid_night_content{
+        position: absolute;
+        top:2px;
+        left: 23px;
+    }
+    /* best offer part start */
+    .best-offer-wrapper {
+        gap: 12px;
+        flex-direction: column;
+    }
+    .best-offer-wrapper .item-2 {
+        width: 340px;
+        height: 340px;
+        border: 5px solid red;
+    }
+    .best-offer-wrapper .inner-item img {
+        width: 315px;
+        height: 315px;
+        border-radius: 50%;
+    }
+    .best-offer-wrapper .item-1 {
+        width: 100vw;
+    }
+    .item-1 h3 {
+        font-size: 45px;
+    }
+    .holiday-header h3 span {
+        font-size: 57px;
+        line-height: 90px;
+    }
+    .holiday-header p {
+        padding-bottom: 0;
+    }
+    /* holiday sale section */
+    .holyday-bottom {
+        background-size: contain;
+        margin-bottom: -400px;
+    }
+    .holyday-banner img {
+        right: -12px;
+        top: 71px;
+    }
+    /* portfolio part start here */
+    .protfolio-header h3 {
+        font-size: 30px;
+    }
+    .protfolio-header p {
+        font-size: 14px;
+    }
+    .collection-1 img {
+        margin-left: 0;
+        margin-bottom: 12px;
+    }
+    .collection-1  {
+       text-align: center;
+    }
+    .collection-2{
+        text-align: center;
+    }
+    .collection-2 img {
+        width: 400px;
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    /* news letter section */
+    .subscribe-content h3 {
+        font-size: 33px;
+    }
+    .subscribe-content p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    input[type="text"] {
+        width: 100vw;
+        font-size: 13px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        border-radius: 50px;
+    }
+    .email a {
+        font-size: 13px;
+        padding: 5px 5px;
+        right: 0;
+        top: 0;
+        width: 125px;
+    }
+    /* footer part start */
+    .bottom-top {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom-last {
+        flex-direction: column;
+        gap: 12px;
+    }
 }
