@@ -34,7 +34,7 @@
       }
       /* mid-night party section */
       #mid-night-party {
-        background-size: contain;
+        background-size: auto;
         position: relative;
         padding-top: 24px;
     }
